@@ -1,0 +1,122 @@
+/* Write your CSS here */
+.product-item-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+}
+.product-price {
+  color: #12022f;
+  font-weight: bold;
+}
+.detailed-image {
+  width: 50%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratings-reviews {
+  display: flex;
+  align-items: center;
+}
+
+.star-image {
+  width: 50%;
+  margin-left: 5px;
+}
+
+.rating-container {
+  display: flex;
+  background-color: #3b82f6;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 7px;
+  color: #ffffff;
+  height: 25px;
+  width: 47px;
+  margin-right: 10px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.addcart-button {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: flex-start;
+  cursor: pointer;
+  outline: none;
+}
+
+.similar-products-conatiner {
+  padding: 30px;
+  width: 80%;
+}
+
+.similar-items-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  list-style-type: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue-shopping-button {
+  background-color: #3b82f6;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.span-style {
+  color: #12022f;
+  font-weight: bold;
+}
+
+.line {
+  color: #616e7c;
+  width: 100%;
+}
+
+.icon-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.description {
+  line-height: 1.5;
+}
+
+.loading-container {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
